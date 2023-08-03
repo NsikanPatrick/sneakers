@@ -385,7 +385,7 @@ header .navigation{
     
     /* the margin right may affect the responsiveness */
     .description .price .old-price{
-        margin: 10px 0 0 50%;
+        margin: 10px 0 0 35%;
     }
 
     .hero-right .buttons{
