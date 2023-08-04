@@ -201,7 +201,7 @@ header .navigation{
     }
 
     .navigation .nav-left .btn-active-toggle{
-        margin-top: 6px;
+        margin-top: 7px;
     }
 }
 
@@ -218,7 +218,7 @@ header .navigation{
     }
 
     .navigation .nav-left .btn-active-toggle{
-        margin-top: 6px;
+        margin-top: 7px;
     }
 
     header .navigation {
@@ -305,6 +305,10 @@ header .navigation{
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .hero-right .buttons .incrementer{
+        margin-bottom: 12px;
+    }
 }
 
 @media (max-width: 868px) {
@@ -318,7 +322,7 @@ header .navigation{
     }
 
     .navigation .nav-left .btn-active-toggle{
-        margin-top: 6px;
+        margin-top: 7px;
     }
 
     /* Header navigation */
@@ -418,9 +422,9 @@ header .navigation{
 }
 
 @media (min-width: 360px) and (max-width: 375px) {
-    /* A bit big 25% */
+    /* A bit big 24% */
     .description .price .old-price{
-        margin: 10px 0 0 25%; 
+        margin: 10px 0 0 24%; 
     }
 }
 
