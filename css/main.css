@@ -201,7 +201,7 @@ header .navigation{
     }
 
     .navigation .nav-left .btn-active-toggle{
-        margin-top: 7px;
+        margin-top: 6px;
     }
 }
 
@@ -218,7 +218,7 @@ header .navigation{
     }
 
     .navigation .nav-left .btn-active-toggle{
-        margin-top: 7px;
+        margin-top: 6px;
     }
 
     header .navigation {
@@ -318,7 +318,7 @@ header .navigation{
     }
 
     .navigation .nav-left .btn-active-toggle{
-        margin-top: 7px;
+        margin-top: 6px;
     }
 
     /* Header navigation */
@@ -403,23 +403,30 @@ header .navigation{
     }
 }
 
-@media (min-width: 376px) and (max-width: 410px) {
-    /* small */
+@media (min-width: 411px) and (max-width: 413px) {
+    /* small 33% */
     .description .price .old-price{
-        margin: 10px 0 0 30%;
+        margin: 10px 0 0 33%;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 410px) {
+    /* small 28% */
+    .description .price .old-price{
+        margin: 10px 0 0 28%;
     }
 }
 
 @media (min-width: 360px) and (max-width: 375px) {
-    /* A bit big */
+    /* A bit big 25% */
     .description .price .old-price{
-        margin: 10px 0 0 27%;
+        margin: 10px 0 0 25%; 
     }
 }
 
 @media (max-width: 359px) {
-    /* Big */
+    /* Big 21% */
     .description .price .old-price{
-        margin: 10px 0 0 25%;
+        margin: 10px 0 0 21%;
     }
 }
