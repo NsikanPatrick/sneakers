@@ -201,7 +201,7 @@ header .navigation{
     }
 
     .navigation .nav-left .btn-active-toggle{
-        margin-top: 10px;
+        margin-top: 7px;
     }
 }
 
@@ -218,7 +218,7 @@ header .navigation{
     }
 
     .navigation .nav-left .btn-active-toggle{
-        margin-top: 10px;
+        margin-top: 7px;
     }
 
     header .navigation {
@@ -318,7 +318,7 @@ header .navigation{
     }
 
     .navigation .nav-left .btn-active-toggle{
-        margin-top: 10px;
+        margin-top: 7px;
     }
 
     /* Header navigation */
@@ -400,5 +400,26 @@ header .navigation{
     .hero-right .buttons .cta{
         margin-left: 0;
         box-shadow: 10px 12px 10px rgba(233, 179, 137, 0.8);
+    }
+}
+
+@media (min-width: 376px) and (max-width: 410px) {
+    /* small */
+    .description .price .old-price{
+        margin: 10px 0 0 30%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 375px) {
+    /* A bit big */
+    .description .price .old-price{
+        margin: 10px 0 0 27%;
+    }
+}
+
+@media (max-width: 359px) {
+    /* Big */
+    .description .price .old-price{
+        margin: 10px 0 0 25%;
     }
 }
